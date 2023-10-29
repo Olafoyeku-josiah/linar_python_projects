@@ -74,7 +74,7 @@ def conversion():
     result['text']=formatted
 
 
-icon=Image.open('linar python projects/images/icon.png')
+icon=Image.open('linar_python_projects/images/icon.png')
 icon=icon.resize((40,40))
 icon=ImageTk.PhotoImage(icon)
 app_name=Label(top, image=icon , compound=RIGHT ,text="My currency converter", height=5, padx=9,pady=30, anchor=CENTER ,font=('Arial 16 bold'), bg=colour2 ,fg=colour0)
